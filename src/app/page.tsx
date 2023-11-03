@@ -17,56 +17,22 @@ export default function Home() {
                   <button className="border border-slate-200 rounded px-2 py-0 absolute right-1">Add</button>
                </div>
                <ul className="w-full h-full gap-[1px] p-3">
-                  <li className="w-full justify-start items-center flex flex-row gap-1 text-slate-500">
-                     <input type="checkbox" />
-                     <p>Hello world</p>
+                  <li className="w-full group  justify-start items-center flex flex-row gap-1 text-slate-500 ">
+                     <input type="checkbox" id="draft" className="peer/draft"  />
+                     <label htmlFor="draft" className="peer-checked/draft:line-through">Hello world</label>
                   </li>
-                  <li className="w-full justify-start items-center flex flex-row gap-1 text-slate-500">
-                     <input type="checkbox" />
-                     <p>Hello world</p>
+                  <li className="w-full group  justify-start items-center flex flex-row gap-1 text-slate-500 ">
+                     <input type="checkbox" id="draft" className="peer/draft"  />
+                     <label htmlFor="draft" className="peer-checked/draft:line-through">Hello world</label>
                   </li>
-                  <li className="w-full justify-start items-center flex flex-row gap-1 text-slate-500">
-                     <input type="checkbox" />
-                     <p>Hello world</p>
+                  <li className="w-full group  justify-start items-center flex flex-row gap-1 text-slate-500 ">
+                     <input type="checkbox" id="draft" className="peer/draft"  />
+                     <label htmlFor="draft" className="peer-checked/draft:line-through">Hello world</label>
                   </li>
-                  <li className="w-full justify-start items-center flex flex-row gap-1 text-slate-500">
-                     <input type="checkbox" />
-                     <p>Hello world</p>
+                  <li className="w-full group  justify-start items-center flex flex-row gap-1 text-slate-500 ">
+                     <input type="checkbox" id="draft" className="peer/draft"  />
+                     <label htmlFor="draft" className="peer-checked/draft:line-through">Hello world</label>
                   </li>
-                  <li className="w-full justify-start items-center flex flex-row gap-1 text-slate-500">
-                     <input type="checkbox" />
-                     <p>Hello world</p>
-                  </li>
-                  <li className="w-full justify-start items-center flex flex-row gap-1 text-slate-500">
-                     <input type="checkbox" />
-                     <p>Hello world</p>
-                  </li>
-                  <li className="w-full justify-start items-center flex flex-row gap-1 text-slate-500">
-                     <input type="checkbox" />
-                     <p>Hello world</p>
-                  </li>
-                  <li className="w-full justify-start items-center flex flex-row gap-1 text-slate-500">
-                     <input type="checkbox" />
-                     <p>Hello world</p>
-                  </li>
-                  <li className="w-full justify-start items-center flex flex-row gap-1 text-slate-500">
-                     <input type="checkbox" />
-                     <p>Hello world</p>
-                  </li>
-                  <li className="w-full justify-start items-center flex flex-row gap-1 text-slate-500">
-                     <input type="checkbox" />
-                     <p>Hello world</p>
-                  </li>
-                  <li className="w-full justify-start items-center flex flex-row gap-1 text-slate-500">
-                     <input type="checkbox" />
-                     <p>Hello world</p>
-                  </li>
-                  <li className="w-full justify-start items-center flex flex-row gap-1 text-slate-500">
-                     <input type="checkbox" />
-                     <p>Hello world</p>
-                  </li>
-                  
-                  
                   
                </ul>
             </main>
